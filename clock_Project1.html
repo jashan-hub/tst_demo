@@ -13,7 +13,7 @@
         let a;
         let date;
         let time;
-        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }; // accessing more data using localeString
         setInterval(() => {
             a = new Date();
             date = a.toLocaleDateString(undefined, options);
